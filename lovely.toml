@@ -1,0 +1,13 @@
+[manifest]
+version = "1.2"
+dump_lua = true
+priority = 0
+
+[[patches]]
+[patches.pattern]
+target = "functions/state_events.lua"
+pattern = ''''''
+position = "at"
+payload = ''''''
+overwrite = true
+match_indent = true

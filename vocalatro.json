@@ -1,0 +1,21 @@
+{
+	"id": "vocalatro",
+	"name": "Vocalatro",
+	"author": ["Aikoyori"],
+	"description": "Changes face cards to be some virtual singers instead I guess",
+	"prefix": "vocalatro",
+	"main_file": "Vocalatro.lua",
+	"priority": 0,
+	"badge_colour": "03e8fc",
+	"badge_text_colour": "051112",
+	"display_name": "vclt",
+	"version": "1.0.0",
+	"dependencies": [
+		"Steamodded (*)", 
+		"Lovely (*)", 
+		"Balatro (>=1.0.1m)"],
+	"conflicts": [
+	],
+	"provides": [
+	]
+}
