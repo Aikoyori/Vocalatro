@@ -1,7 +1,9 @@
 
-    if SMODS.Atlas then
-        SMODS.Atlas {key = 'collab_WF_1', path = "collabs/collab_WF_1.png",atlas_table = 'ASSET_ATLAS',prefix_config = { key = false },px=71,py=95}
-        SMODS.Atlas {key = 'collab_WF_2', path = "collabs/collab_WF_2.png",atlas_table = 'ASSET_ATLAS',prefix_config = { key = false },px=71,py=95}
-        SMODS.Atlas {key = 'collab_D2_1', path = "collabs/collab_D2_1.png",atlas_table = 'ASSET_ATLAS',prefix_config = { key = false },px=71,py=95}
--- SMODS.Atlas({name = 'collab_WF_2', path = "textures/"..self.SETTINGS.GRAPHICS.texture_scaling.."x/collabs/collab_WF_2.png",px=71,py=95})
-end
+ranks = {"Jack", "Queen", "King"}
+SMODS.Atlas {key = 'vocalatro_clubs_1', path = "collabs/mikugumizunda.png",atlas_table = 'ASSET_ATLAS',prefix_config = { key = false },px=71,py=95}
+SMODS.Atlas {key = 'vocalatro_clubs_2', path = "collabs/mikugumizunda_cb.png",atlas_table = 'ASSET_ATLAS',prefix_config = { key = false },px=71,py=95}
+SMODS.Atlas {key = 'vocalatro_hearts_1', path = "collabs/tetoreiia.png",atlas_table = 'ASSET_ATLAS',prefix_config = { key = false },px=71,py=95}
+SMODS.Atlas {key = 'vocalatro_hearts_2', path = "collabs/tetoreiia_cb.png",atlas_table = 'ASSET_ATLAS',prefix_config = { key = false },px=71,py=95}
+
+SMODS.DeckSkin({key = 'vocalatro_clubs', suit="Clubs", ranks=ranks, lc_atlas='vocalatro_clubs_1',hc_atlas="vocalatro_clubs_2",posStyle = 'collab',loc_txt={["en-us"]="Miku, Gumi, & Zundamon"}})
+SMODS.DeckSkin({key = 'vocalatro_hearts', suit="Hearts", ranks=ranks, lc_atlas='vocalatro_hearts_1',hc_atlas="vocalatro_hearts_2",posStyle = 'collab',loc_txt={["en-us"]="Teto, Rei, & IA"}})
