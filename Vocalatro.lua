@@ -7,7 +7,8 @@ SMODS.Atlas {
         key = false
     },
     px = 71,
-    py = 95
+    py = 95,
+    disable_mipmap = true,
 }
 SMODS.Atlas {
     key = 'vocalatro_clubs_2',
@@ -17,7 +18,8 @@ SMODS.Atlas {
         key = false
     },
     px = 71,
-    py = 95
+    py = 95,
+    disable_mipmap = true,
 }
 SMODS.Atlas {
     key = 'vocalatro_hearts_1',
@@ -27,7 +29,8 @@ SMODS.Atlas {
         key = false
     },
     px = 71,
-    py = 95
+    py = 95,
+    disable_mipmap = true,
 }
 SMODS.Atlas {
     key = 'vocalatro_hearts_2',
@@ -37,7 +40,8 @@ SMODS.Atlas {
         key = false
     },
     px = 71,
-    py = 95
+    py = 95,
+    disable_mipmap = true,
 }
 SMODS.Atlas {
     key = 'vocalatro_diamonds_1',
@@ -47,7 +51,20 @@ SMODS.Atlas {
         key = false
     },
     px = 71,
-    py = 95
+    py = 95,
+    disable_mipmap = true,
+}
+
+SMODS.Atlas {
+    key = 'vocalatro_diamonds_2',
+    path = "collabs/nerurinlenakari_cb.png",
+    atlas_table = 'ASSET_ATLAS',
+    prefix_config = {
+        key = false
+    },
+    px = 71,
+    py = 95,
+    disable_mipmap = true,
 }
 
 SMODS.DeckSkin({
@@ -81,7 +98,7 @@ SMODS.DeckSkin({
     suit = "Diamonds",
     ranks = ranks,
     lc_atlas = 'vocalatro_diamonds_1',
-    hc_atlas = "vocalatro_diamonds_1",
+    hc_atlas = "vocalatro_diamonds_2",
     posStyle = 'collab',
     loc_txt = {
         ["en-us"] = "Neru, Rin/Len, & Akari",
