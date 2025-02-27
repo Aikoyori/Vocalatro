@@ -1,67 +1,49 @@
 ranks = {"Jack", "Queen", "King"}
 SMODS.Atlas {
-    key = 'vocalatro_clubs_1',
+    key = 'clubs_1',
     path = "collabs/mikugumizunda.png",
     atlas_table = 'ASSET_ATLAS',
-    prefix_config = {
-        key = false
-    },
     px = 71,
     py = 95,
     disable_mipmap = true,
 }
 SMODS.Atlas {
-    key = 'vocalatro_clubs_2',
+    key = 'clubs_2',
     path = "collabs/mikugumizunda_cb.png",
     atlas_table = 'ASSET_ATLAS',
-    prefix_config = {
-        key = false
-    },
     px = 71,
     py = 95,
     disable_mipmap = true,
 }
 SMODS.Atlas {
-    key = 'vocalatro_hearts_1',
+    key = 'hearts_1',
     path = "collabs/tetoreiia.png",
     atlas_table = 'ASSET_ATLAS',
-    prefix_config = {
-        key = false
-    },
     px = 71,
     py = 95,
     disable_mipmap = true,
 }
 SMODS.Atlas {
-    key = 'vocalatro_hearts_2',
+    key = 'hearts_2',
     path = "collabs/tetoreiia_cb.png",
     atlas_table = 'ASSET_ATLAS',
-    prefix_config = {
-        key = false
-    },
     px = 71,
     py = 95,
     disable_mipmap = true,
 }
 SMODS.Atlas {
-    key = 'vocalatro_diamonds_1',
+    key = 'diamonds_1',
     path = "collabs/nerurinlenakari.png",
     atlas_table = 'ASSET_ATLAS',
-    prefix_config = {
-        key = false
-    },
     px = 71,
     py = 95,
     disable_mipmap = true,
 }
 
 SMODS.Atlas {
-    key = 'vocalatro_diamonds_2',
+    key = 'diamonds_2',
     path = "collabs/nerurinlenakari_cb.png",
     atlas_table = 'ASSET_ATLAS',
-    prefix_config = {
-        key = false
-    },
     px = 71,
     py = 95,
     disable_mipmap = true,
