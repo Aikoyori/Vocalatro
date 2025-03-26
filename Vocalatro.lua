@@ -48,6 +48,22 @@ SMODS.Atlas {
     py = 95,
     disable_mipmap = true,
 }
+SMODS.Atlas {
+    key = 'spades_1',
+    path = "collabs/kafuDefokoForte.png",
+    atlas_table = 'ASSET_ATLAS',
+    px = 71,
+    py = 95,
+    disable_mipmap = true,
+}
+SMODS.Atlas {
+    key = 'spades_2',
+    path = "collabs/kafuDefokoForte_cb.png",
+    atlas_table = 'ASSET_ATLAS',
+    px = 71,
+    py = 95,
+    disable_mipmap = true,
+}
 
 SMODS.DeckSkin({
     key = 'vocalatro_clubs',
@@ -59,7 +75,6 @@ SMODS.DeckSkin({
     loc_txt = {
         ["en-us"] = "Miku, Gumi, & Zundamon",
         ["ja"] = "ミク, メグッポイド, ずんだもん",
-        ["th_TH"] = "มิกุ, กุมิ, และซีนดาม่อน"
     }
 })
 SMODS.DeckSkin({
@@ -72,7 +87,6 @@ SMODS.DeckSkin({
     loc_txt = {
         ["en-us"] = "Teto, Rei, & IA",
         ["ja"] = "テト, レイ, & イア",
-        ["th_TH"] = "เทโตะ, เร, และไออะ"
     }
 })
 SMODS.DeckSkin({
@@ -85,6 +99,18 @@ SMODS.DeckSkin({
     loc_txt = {
         ["en-us"] = "Neru, Rin/Len, & Akari",
         ["ja"] = "ネル, リン/レン, & あかり",
-        ["th_TH"] = "เนรุ, ริน/เรน, และอะคะริ"
+    }
+})
+
+SMODS.DeckSkin({
+    key = 'vocalatro_spades',
+    suit = "Spades",
+    ranks = ranks,
+    lc_atlas = 'vocalatro_spades_1',
+    hc_atlas = "vocalatro_spades_2",
+    posStyle = 'collab',
+    loc_txt = {
+        ["en-us"] = "KAFU, Defoko, & Forte",
+        ["ja"] = "可不, デフォ子, & フォルテ",
     }
 })
