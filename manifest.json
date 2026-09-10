@@ -1,0 +1,9 @@
+{
+    "name": "Vocalatro",
+    "version_number": "1.0.1",
+    "website_url": "https://github.com/Aikoyori/Vocalatro",
+    "description": "Changes face cards to be some virtual singers instead I guess",
+    "dependencies": [
+        "Steamodded-Steamodded-1.301.0"
+    ]
+}

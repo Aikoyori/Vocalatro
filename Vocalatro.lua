@@ -1,5 +1,12 @@
 ranks = {"Jack", "Queen", "King"}
 SMODS.Atlas {
+    key = 'modicon',
+    path = "icon.png",
+    px = 34,
+    py = 34,
+}
+
+SMODS.Atlas {
     key = 'clubs_1',
     path = "collabs/mikugumizunda.png",
     atlas_table = 'ASSET_ATLAS',
